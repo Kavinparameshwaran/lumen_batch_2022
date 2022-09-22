@@ -81,6 +81,7 @@ public class App {
 	}
 
 	public static void main(String[] args) throws EmployeeNotFoundException {
+		System.out.println("Kavin is a good boy, and sabareesh is a bad boy , done by mohan");
 		EmployeeService service = new EmployeeService();
 		while (true) {
 			Scanner input = new Scanner(System.in);
